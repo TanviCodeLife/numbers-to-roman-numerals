@@ -18,12 +18,12 @@
 * _**The nearest value you can count to is III using just I in roman numerals.**_
 * _Input Example: "3"_
 * _Output Example: "III"_
-* _**The exception is that there may not be more than three of the same characters in a row. Instead, you switch to subtraction. So instead of writing IIII for 4, you write IV (for 5 minus 1).**_
-* _Input Example: "4"_
-* _Output Example: "IV"_
-* _**If a user enters a word starting with "y", the program should treat the "y" as a consonant.**_
-* _Input Example: "yard"_
-* _Output Example: "ardyay"_
+* _**The exception is that there may not be more than three of the same characters in a row. Instead, you switch to subtraction. So instead of writing IIII for 4, you write IV (for 5 minus 1).Similarly for 9, VIIII is not valid output**_
+* _Input Example: "4 and 9"_
+* _Output Example: "IV and IX"_
+* _**Input from 10 to 39 check for the tens position and push the Roman Numerals for them i.e X for 10 and XXX for 30. For ones, digits call the ones generator function from 1 to 9**_
+* _Input Example: "37"_
+* _Output Example: "XXXVII"_
 * _**If a user enters a word with mixed case letters, the program should be able to parse the word accurately.**_
 * _Input Example: "jUmbled"_
 * _Output Example: "Umbledjay"_
