@@ -18,9 +18,9 @@
 * _**The nearest value you can count to is III using just I in roman numerals.**_
 * _Input Example: "3"_
 * _Output Example: "III"_
-* _**If a user enters a word starting with "qu", the program should return that word with "qu" acting as a single consonant to be dragged to the end.**_
-* _Input Example: "quiet"_
-* _Output Example: "ietquay"_
+* _**The exception is that there may not be more than three of the same characters in a row. Instead, you switch to subtraction. So instead of writing IIII for 4, you write IV (for 5 minus 1).**_
+* _Input Example: "4"_
+* _Output Example: "IV"_
 * _**If a user enters a word starting with "y", the program should treat the "y" as a consonant.**_
 * _Input Example: "yard"_
 * _Output Example: "ardyay"_
